@@ -12,18 +12,13 @@
             "settings": {
                 "[markdown]": {
                     "editor.wordWrap": "on",
-                    "editor.defaultFormatter": null
+                    "editor.formatOnSave": true,
+                    "editor.defaultFormatter": "esbenp.prettier-vscode"
                 },
-                "triggerTaskOnSave.tasks": {
-                    "Format Slidev": ["**/*.md"]
-                }
+                "prettier.configPath": ".vscode/.prettierrc.json",
+                "prettier.resolveGlobalModules": true
             },
-            "extensions": [
-                "esbenp.prettier-vscode",
-                "dbaeumer.vscode-eslint",
-                "antfu.slidev",
-                "Gruntfuggly.triggertaskonsave"
-            ]
+            "extensions": ["antfu.slidev", "esbenp.prettier-vscode"]
         }
     },
     "postStartCommand": "echo 'Container is ready. Run \"slidev slides.md --remote\" to start presenting!'"
