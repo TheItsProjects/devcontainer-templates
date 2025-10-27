@@ -1,0 +1,30 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+    "name": "Slidev",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "[markdown]": {
+                    "editor.wordWrap": "on",
+                    "editor.defaultFormatter": null
+                },
+                "triggerTaskOnSave.tasks": {
+                    "Format Slidev": ["**/*.md"]
+                }
+            },
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "antfu.slidev",
+                "Gruntfuggly.triggertaskonsave"
+            ]
+        }
+    },
+    "postStartCommand": "echo 'Container is ready. Run \"slidev slides.md --remote\" to start presenting!'"
+}

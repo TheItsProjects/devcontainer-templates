@@ -1,0 +1,20 @@
+{
+    "id": "slidev",
+    "version": "1.0.0",
+    "name": "Slidev",
+    "description": "A simple Container for creating, modifying and presenting Slidev presentations.",
+    "documentationUrl": "TODO",
+    "publisher": "ItsNameless",
+    "licenseUrl": "TODO",
+    "options": {},
+    "platforms": [
+        "Any"
+    ],
+    "keywords": [
+        "present",
+        "slides"
+    ],
+    "optionalPaths": [
+        "slides.md"
+    ]
+}
