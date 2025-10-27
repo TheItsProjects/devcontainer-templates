@@ -1,6 +1,6 @@
 {
     "id": "slidev",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "Slidev",
     "description": "A simple Container for creating, modifying and presenting Slidev presentations.",
     "documentationUrl": "TODO",
