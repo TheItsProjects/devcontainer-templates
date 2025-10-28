@@ -1,6 +1,6 @@
 ## Information
 
-This template contains a development container configuration for [LaTeX](https://www.latex-project.org/), a typesetting system commonly used for technical and scientific documentation. The configuration sets up a TeX Live environment with essential LaTeX packages and includes the Latex Workshop VS Code extension for an enhanced editing experience.
+This template contains a development container configuration for [LaTeX](https://www.latex-project.org/), a typesetting system commonly used for technical and scientific documentation. The configuration sets up a TeX Live environment with essential LaTeX packages and includes the LaTeX Workshop VS Code extension for an enhanced editing experience.
 
 ## Features
 
