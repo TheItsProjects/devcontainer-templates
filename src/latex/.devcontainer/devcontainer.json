@@ -1,0 +1,16 @@
+{
+    "name": "LaTeX DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": ["James-Yu.latex-workshop"],
+            "settings": {
+                "latex-workshop.latex.autoBuild.run": "onFileChange",
+                "latex-workshop.view.pdf.viewer": "tab"
+            }
+        }
+    },
+    "postCreateCommand": "tlmgr update --self"
+}
