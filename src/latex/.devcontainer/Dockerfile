@@ -4,7 +4,6 @@ FROM texlive/texlive:latest-full-doc
 # Install any additional LaTeX packages you need
 RUN tlmgr install \
     scheme-full \
-    latexmk \
     && apt-get update \
     && apt-get install -y \
     build-essential \
