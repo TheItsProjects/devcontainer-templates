@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "name": "LaTeX",
     "description": "A simple Container for creating and editing LaTeX documents.",
-    "documentationUrl": "TODO",
+    "documentationUrl": "https://github.com/TheItsProjects/devcontainer-templates/tree/main/src/latex/README.md",
     "publisher": "ItsNameless",
     "licenseUrl": "https://github.com/TheItsProjects/devcontainer-templates/tree/main/LICENSE",
     "platforms": [
