@@ -12,5 +12,5 @@
             }
         }
     },
-    "postCreateCommand": "tlmgr update --self && tlmgr install latexmk"
+    "postCreateCommand": "tlmgr update --self"
 }
