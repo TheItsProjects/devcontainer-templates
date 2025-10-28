@@ -1,0 +1,19 @@
+{
+    "id": "latex",
+    "version": "1.0.0",
+    "name": "Latex",
+    "description": "A simple Container for creating and editing Latex documents.",
+    "documentationUrl": "TODO",
+    "publisher": "ItsNameless",
+    "licenseUrl": "https://github.com/TheItsProjects/devcontainer-templates/tree/main/LICENSE",
+    "platforms": [
+        "Any"
+    ],
+    "keywords": [
+        "latex",
+        "tex",
+        "typesetting",
+        "documentation",
+        "scientific"
+    ]
+}
